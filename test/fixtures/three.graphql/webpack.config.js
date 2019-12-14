@@ -30,6 +30,10 @@ module.exports = {
             attrs: [':data-src']
           }
         }
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
       }
     ]
   },
@@ -37,5 +41,6 @@ module.exports = {
     contentBase: 'dist',
     liveReload: false,
     port: PORT
-  }
+  },
+  plugins: []
 };

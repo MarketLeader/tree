@@ -23,19 +23,23 @@
     "xml-js": "latest"
   },
   "devDependencies": {
+    "@babel/cli": "latest",
     "@babel/core": "latest",
     "@babel/preset-env": "latest",
     "@babel/preset-react": "latest",
+    "@babel/register": "latest",
     "babel-loader": "latest",
     "babelify": "latest",
     "brfs": "latest",
     "budo": "latest",
+    "css-loader": "latest",
     "glob": "latest",
     "graphiql": "latest",
     "html-loader": "latest",
     "html-webpack-plugin": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "style-loader": "latest",
     "webpack": "latest",
     "webpack-cli": "latest",
     "webpack-dev-server": "latest"
