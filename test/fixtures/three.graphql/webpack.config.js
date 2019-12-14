@@ -4,7 +4,7 @@ module.exports = {
   target: 'node',
   mode: 'production',
   devtool: 'source-map',
-  entry: path.join(__dirname, './index.js'),
+  entry: path.join(__dirname, './editor.js'),
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
