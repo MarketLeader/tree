@@ -24,13 +24,21 @@
   },
   "devDependencies": {
     "@babel/core": "latest",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
     "babelify": "latest",
     "brfs": "latest",
     "budo": "latest",
     "glob": "latest",
     "graphiql": "latest",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   },
   "scripts": {
     "preinstall": "bash scripts/preinstall.sh",
