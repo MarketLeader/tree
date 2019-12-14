@@ -36,11 +36,6 @@ module.exports = {
   devServer: {
     contentBase: 'dist',
     liveReload: false,
-    port: PORT,
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: 'dist/index.html'
-    })
-  ]
+    port: PORT
+  }
 };
