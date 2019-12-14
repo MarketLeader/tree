@@ -1,5 +1,4 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const PORT = 8118;
 module.exports = {
   target: 'node',
