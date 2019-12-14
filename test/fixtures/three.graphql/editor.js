@@ -1,11 +1,11 @@
 'use strict'
 
 import vm from 'vm'
-const React = require('react')
-const ready = require('domready')
-const createQuery = require('./')
-const ReactDOM = require('react-dom')
-const { default: GraphiQL } = require('graphiql')
+import React from 'react'
+import ready from 'domready'
+import createQuery from './'
+import ReactDOM from 'react-dom'
+import { GraphiQL } from 'graphiql'
 
 let query
 let currentQuerySource = null

@@ -4,10 +4,10 @@
  * Module dependendies.
  */
 
-const createContext = require('./context')
-const schema = require('./schema')
-const ready = require('domready')
-const graph = require('graphql').graphql
+import createContext from './context'
+import schema from './schema'
+import ready from 'domready'
+import graph from 'graphql.graphql'
 
 // graphql(schema, ...) lazy bind
 const G = graph.bind(graph, schema)

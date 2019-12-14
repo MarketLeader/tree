@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Run browserify
-browserify editor.js -t brfs -o build.js --no-babelrc
+#browserify editor.js -t brfs -o build.js --no-babelrc
 
 # Resolving: Error/Warning
 REPLACE='return null'
