@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const PORT = 8118;
 module.exports = {
+  target: 'node',
   mode: 'development',
   devtool: 'source-map',
   entry: path.join(__dirname, './index.js'),
@@ -39,10 +40,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'dist/index.html'
+      template: 'index.html'
     })
-  ],
-  node: {
-    fs: 'empty'
-  }
+  ]
 };
