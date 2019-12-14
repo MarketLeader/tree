@@ -41,5 +41,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'index.html'
     })
-  ]
+  ],
+  node: {
+    fs: 'empty'
+  }
 };

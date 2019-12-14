@@ -7,3 +7,4 @@
 # https://www.npmjs.com/package/debug
 #DEBUG=http node app.js
 #node --inspect test.js
+npx webpack
