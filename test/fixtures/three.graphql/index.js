@@ -7,7 +7,7 @@
 import createContext from './context'
 import schema from './schema'
 import ready from 'domready'
-import graph from 'graphql.graphql'
+import graph from 'graphql'
 
 // graphql(schema, ...) lazy bind
 const G = graph.bind(graph, schema)
