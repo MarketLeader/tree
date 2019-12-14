@@ -2,7 +2,7 @@ const path = require('path');
 const PORT = 8118;
 module.exports = {
   target: 'node',
-  mode: 'development',
+  mode: 'production',
   devtool: 'source-map',
   entry: path.join(__dirname, './index.js'),
   output: {
