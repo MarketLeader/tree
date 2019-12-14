@@ -10,3 +10,9 @@ npx react-codemod rename-unsafe-lifecycles
 
 # Delete all regenerated files
 echo -e "\n$hr\nINSTALL\n$hr"
+npm i -D babel-loader @babel/preset-env @babel/preset-react
+npm i -D webpack webpack-cli webpack-dev-server
+npm i -D html-loader html-webpack-plugin
+touch webpack.config.js
+touch .babelrc
+npx webpack
