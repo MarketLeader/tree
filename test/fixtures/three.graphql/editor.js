@@ -1,6 +1,6 @@
 'use strict'
 
-const vm = require('vm')
+import vm from 'vm'
 const React = require('react')
 const ready = require('domready')
 const createQuery = require('./')
