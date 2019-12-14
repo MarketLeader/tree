@@ -21673,6 +21673,17 @@ function plural(ms, msAbs, n, name) {
 
 /***/ }),
 
+/***/ "./node_modules/node-libs-browser/mock/empty.js":
+/*!******************************************************!*\
+  !*** ./node_modules/node-libs-browser/mock/empty.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./node_modules/node-libs-browser/node_modules/buffer/index.js":
 /*!*********************************************************************!*\
   !*** ./node_modules/node-libs-browser/node_modules/buffer/index.js ***!
@@ -75271,7 +75282,7 @@ var createSchema = __webpack_require__(/*! graph.ql */ "./node_modules/graph.ql/
 
 var path = __webpack_require__(/*! path */ "./node_modules/path-browserify/index.js");
 
-var fs = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module 'fs'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+var fs = __webpack_require__(/*! fs */ "./node_modules/node-libs-browser/mock/empty.js");
 
 var EXTNAME = '.graphql';
 var files = [];
