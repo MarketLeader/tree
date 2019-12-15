@@ -4,10 +4,10 @@
  * Module dependendies.
  */
 
-import createContext from './context'
-import schema from './schema'
-import ready from 'domready'
-import { graphql as graph } from 'graphql'
+import ready from 'domready';
+import schema from './schema';
+import createContext from './context';
+import { graphql as graph } from 'graphql';
 
 // graphql(schema, ...) lazy bind
 const G = graph.bind(graph, schema)
