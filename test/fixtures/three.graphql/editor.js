@@ -1,11 +1,11 @@
-'use strict'
+'use strict';
 
-import { vm } from 'vm'
-import React from 'react'
-import ready from 'domready'
-import createQuery from './'
-import ReactDOM from 'react-dom'
-import { GraphiQL } from 'graphiql'
+import vm from 'vm';
+import React from 'react';
+import ready from 'domready';
+import createQuery from './';
+import ReactDOM from 'react-dom';
+import { GraphiQL } from 'graphiql';
 
 let query
 let currentQuerySource = null
