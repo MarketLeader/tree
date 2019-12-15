@@ -3,7 +3,7 @@
 import vm from 'vm';
 import React from 'react';
 import ready from 'domready';
-import { createQuery } from './';
+import createQuery from './';
 import ReactDOM from 'react-dom';
 import { GraphiQL } from 'graphiql';
 
