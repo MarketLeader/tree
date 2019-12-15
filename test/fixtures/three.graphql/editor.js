@@ -1,6 +1,6 @@
 'use strict'
 
-import vm from 'vm'
+import { vm } from 'vm'
 import React from 'react'
 import ready from 'domready'
 import createQuery from './'

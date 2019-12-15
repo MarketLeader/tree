@@ -1,4 +1,4 @@
-import path from 'path';
+const path = require('path');
 const PORT = 8118;
 module.exports = {
   target: 'node',
