@@ -3,8 +3,9 @@
 # Run browserify
 # https://github.com/babel/babelify#options
 # https://github.com/browserify/browserify-handbook#configuring-transforms
-browserify editor.js -t brfs > build.js
-
+# browserify editor.js -t brfs -o build.js --no-babelrc
+browserify -t brfs -t [ babelify --presets [ @babel/preset-env @babel/preset-react ] ] editor.js > build.js --no-babelrc
+           
 # Resolving: Error/Warning
 REPLACE='return null'
 FIND='throw new TypeError("\Int cannot represent non-integer value: ".concat((0, _inspect.default)(value)))'
