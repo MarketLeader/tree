@@ -5,7 +5,7 @@ const React = require('react')
 const ready = require('domready')
 const createQuery = require('./')
 const ReactDOM = require('react-dom')
-import { GraphiQL } from 'graphiql';
+import GraphiQL from 'graphiql';
 
 let query
 let currentQuerySource = null
