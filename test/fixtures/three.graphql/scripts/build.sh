@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Run browserify
-browserify editor.js -t brfs -o build.js
+# https://github.com/babel/babelify#options
+# https://github.com/browserify/browserify-handbook#configuring-transforms
+browserify editor.js -t brfs > build.js
 
 # Resolving: Error/Warning
 REPLACE='return null'
